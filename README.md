@@ -1,8 +1,10 @@
 # Spring Boot Echange Rate Service
 
 # What application does?
-It is echange rate servis that every day exclude weekends download and store currency rate, from ECB(European Central Bank) to make sure that everything is up-do-date.
-Aftherwards, when the question appear he convert them from any currency to any currency, the client choose.
+It is an exchange rate service that every day exclude 
+weekends download and store in database currency rate from ECB (European Central 
+Bank). Program is able to convert every currency. Application is written in Java, using 
+Spring Boot framework, with H2 as database
 
 # How to run appliation
 
